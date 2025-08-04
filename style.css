@@ -109,7 +109,7 @@ nav {
 
 .about-content {
     display: flex;
-    align-items: center;
+    align-items: top;
     gap: 64px;
     margin-top: 32px;
 }
@@ -121,13 +121,14 @@ nav {
 .about-image {
     flex: 1;
     border-radius: 10px;
+    height: max-content;
     overflow: hidden;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
 }
 
 .about-image img {
     width: 100%;
-    height: 345px;
+    height: 413px;
     display: block;
     object-fit: cover;
 }
